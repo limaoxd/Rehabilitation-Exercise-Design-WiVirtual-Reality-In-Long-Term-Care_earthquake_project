@@ -531,7 +531,7 @@ MonoBehaviour:
   Counting_time: 1
   timer: 90
   num: 5
-  MaxRoadNumber: 40
+  MaxRoadNumber: 30
   dis: 200
   Offset_x: 30
   Offset_z: 30
