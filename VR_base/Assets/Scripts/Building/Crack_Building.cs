@@ -234,6 +234,7 @@ public class Crack_Building : MonoBehaviour
             GameObject obj = new GameObject();
 
             obj.layer = origin.layer;
+            obj.tag   = origin.tag;
 
             obj.AddComponent<sliceable>();
             obj.AddComponent<life_time>();

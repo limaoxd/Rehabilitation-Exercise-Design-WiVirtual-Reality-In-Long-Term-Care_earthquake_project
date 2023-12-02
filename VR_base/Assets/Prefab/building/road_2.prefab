@@ -443,6 +443,13 @@ MonoBehaviour:
   - {fileID: 8964931645258768624}
   - {fileID: 5267566845701495051}
   - {fileID: 8604040191880930331}
+  Cars:
+  - {fileID: 4847331677855499371, guid: ca050463cfd445743bbe3d35974f40f8, type: 3}
+  - {fileID: 2932350399482920193, guid: cd60f5a673df90a46adcef6c426b1c24, type: 3}
+  - {fileID: 8647080733841915444, guid: 5745b37883c17394883e4587866fe8ba, type: 3}
+  - {fileID: 5032560288038684282, guid: 8615299e8f569e148bba8a68b0de3ed1, type: 3}
+  - {fileID: 5162264557010972752, guid: cbd760be9b3d8c8498524dbe2486f1ea, type: 3}
+  generate_car: 1
 --- !u!114 &5300789414913018678
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -638,6 +645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_House_04_color03
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b8365ae9a93a2e8498ae3c2646f3c455, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b8365ae9a93a2e8498ae3c2646f3c455, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.6000007
@@ -715,6 +726,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2dbee28eacba7dd42845e0153c4da642, type: 3}
       propertyPath: m_Name
       value: Building_House_03_color03
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2dbee28eacba7dd42845e0153c4da642, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2dbee28eacba7dd42845e0153c4da642, type: 3}
       propertyPath: m_LocalScale.x
@@ -1110,6 +1125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: e
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 1d53359c70324d14c989d7058b50ec6b, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1d53359c70324d14c989d7058b50ec6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -14.17
@@ -1265,6 +1284,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bc532b78ce09f234ea01da2deecfe035, type: 3}
       propertyPath: m_Name
       value: Building_Restaurant
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bc532b78ce09f234ea01da2deecfe035, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bc532b78ce09f234ea01da2deecfe035, type: 3}
       propertyPath: m_LocalPosition.x
